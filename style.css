@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f1ff;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #7c4dff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: #7c4dff;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 100px 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #7c4dff;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.content h2 span {
+    font-weight: 600;
+    color: #333;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #7c4dff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.portfolio-btn {
+    background-color: transparent;
+    border: 2px solid #7c4dff;
+    color: #7c4dff;
+}
+
+.portfolio-btn:hover {
+    background-color: #7c4dff;
+    color: #fff;
+}
+
+.image-container {
+    max-width: 30%;
+    border-radius: 30%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 50%;
+}
